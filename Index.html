@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ritika Industries</title>\
+    <link rel="shortcut icon" href="image/" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+        integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- swiper -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <script src="javascript/swiper-bundle.min.js"></script>
+
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="image/logo.png" alt="image">Ritika Industries
+            </a>
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__items">
+                        <a href="#" class="nav__link">
+                            <i class="ri-home-line"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__link">
+                            <i class="ri-home-line"></i>
+                            <span>About</span>
+                        </a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__link">
+                            <i class="ri-product-hunt-fill"></i>
+                            <span>Product</span>
+                        </a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__link">
+                            <i class="ri-home-line"></i>
+                            <span>Contact us</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav__actions">
+                <!-- search button -->
+                <i class="ri-search-line" id="search-button"></i>
+
+                <!-- login button -->
+                <i class="ri-user-line" id="login-button"></i>
+
+                <!-- theme button -->
+                <i class="ri-moon-line" id="theme-button"></i>
+            </div>
+        </nav>
+    </header>
+
+    <div class="search" id="serach-content">
+        <form action="" class="search__form">
+            <i class="ri-search-line search__icon"></i>
+            <input type="search" placeholder="items code" class="search__input">
+        </form>
+        <i class="ri-close-line search__close" id="search-close"></i>
+    </div>
+    <!-- =========login========= -->
+    <div class="login grid" id="login-content">
+        <form action="#" class="login__form grid">
+            <h2 class="login__title">Log In</h2>
+            <div class="login__group grid">
+                <div>
+                    <label for="login-email" class="login__label">Username</label>
+                    <input type="text" placeholder="enter your username" id="login-email" class="login__input">
+                </div>
+
+                <div>
+                    <label for="login-password" class="login__label">Password</label>
+                    <input type="password" placeholder="enter your Password" id="login-password" class="login__input">
+                </div>
+
+                <div>
+                    <span class="login__signup">
+                        You do not have an account <a href="#">Sign up</a>
+                    </span>
+                    <a href="#" class="login__forget">forget password</a>
+                    <button type="submit" class="login__button button"> Login </button>
+                </div>
+            </div>
+        </form>
+        <i class="ri-close-line login__close" id="login-close"></i>
+    </div>
+
+    <!-- ==========MAIN========== -->
+    <main class="main">
+        <!-- ==========HOME========== -->
+        <section class="home section" id="home">
+            <!-- Slider main container -->
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="home__title">M/S Ritika Industries</h1>
+                    <p class="home__description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit harum quibusdam quam voluptatum
+                        id quos nobis necessitatibus numquam voluptate illo!
+                    </p>
+                    <a href="#" class="button">Explore Now....</a>
+                </div>
+                <div class="home__images">
+                    <div class="home__swiper swiper" id="home__swiper">
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <article class="home__article swiper-slide">
+                                <img src="image/ritika1.jpg" alt="image" class="home__img">
+                            </article>
+                            <article class="home__article swiper-slide">
+                                <img src="image/ritika2.jpg" alt="image" class="home__img">
+                            </article>
+                            <article class="home__article swiper-slide">
+                                <img src="image/ritika3.jpg" alt="image" class="home__img">
+                            </article>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="services section">
+            <div class="services__container container grid">
+                <article class="services__card">
+                    <i class="ri-truck-fill"></i>
+                    <h3 class="services__title">Free shoping</h3>
+                    <p class="services__description">Order more than 100000</p>
+                </article>
+
+                <article class="services__card">
+                    <i class="ri-lock-fill"></i>
+                    <h3 class="services__title">Secure Payment</h3>
+                    <p class="services__description">100% secure payment</p>
+                </article>
+
+                <article class="services__card">
+                    <i class="ri-customer-service-2-fill"></i>
+                    <h3 class="services__title">24/7 support</h3>
+                    <p class="services__description">call us any time</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="featured section" id="featured">
+            <h2 class="section__title ">
+                Brass Product
+            </h2>
+            <div class="featured__container conatiner">
+                <div class="featured_swiper swiper">
+                    <div class="swiper-wrapper">
+                        <article class="featured__card swiper-slide">
+                            <img src="image/Pull-Handles-1-41x300.jpg" alt="image" class="featured__img">
+                            <h2 class="featured__title"> handle</h2>
+                            <div class="featured__prices">
+                                <span class="featured__discount">499/-</span>
+                                <span class="featured__price">999/-</span>
+                            </div>
+                            <button class="button">Add To Cart </button>
+                            <div class="featured__actions">
+                                <button><i class="ri-search-line"></i></button>
+                                <button><i class="ri-heart-line"></i></button>
+                                <button><i class="ri-eye-line"></i></button>
+                            </div>
+                        </article>
+
+                        <article class="featured__card swiper-slide">
+                            <img src="image/Brackets.jpg" alt="image" class="featured__img">
+                            <h2 class="featured__title"> Breket</h2>
+                            <div class="featured__prices">
+                                <span class="featured__discount">1499/-</span>
+                                <span class="featured__price">1999/-</span>
+                            </div>
+                            <button class="button">Add To Cart </button>
+                            <div class="featured__actions">
+                                <button><i class="ri-search-line"></i></button>
+                                <button><i class="ri-heart-line"></i></button>
+                                <button><i class="ri-eye-line"></i></button>
+                            </div>
+                        </article>
+                        <article class="featured__card swiper-slide">
+                            <img src="image/1303.jpg" alt="image" class="featured__img">
+                            <h2 class="featured__title"> handle</h2>
+                            <div class="featured__prices">
+                                <span class="featured__discount">449/-</span>
+                                <span class="featured__price">899/-</span>
+                            </div>
+                            <button class="button">Add To Cart </button>
+                            <div class="featured__actions">
+                                <button><i class="ri-search-line"></i></button>
+                                <button><i class="ri-heart-line"></i></button>
+                                <button><i class="ri-eye-line"></i></button>
+                            </div>
+                        </article>
+                        <article class="featured__card swiper-slide">
+                            <img src="image/curtain.jpg" alt="image" class="featured__img">
+                            <h2 class="featured__title"> handle</h2>
+                            <div class="featured__prices">
+                                <span class="featured__discount">499/-</span>
+                                <span class="featured__price">999/-</span>
+                            </div>
+                            <button class="button">Add To Cart </button>
+                            <div class="featured__actions">
+                                <button><i class="ri-search-line"></i></button>
+                                <button><i class="ri-heart-line"></i></button>
+                                <button><i class="ri-eye-line"></i></button>
+                            </div>
+                        </article>
+
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="ri-arrow-left-s-line"></i>
+                    </div>
+                    <div class="swiper-button-next">
+                        <i class="ri-arrow-right-s-line"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="discount" id="discount">
+            <div class="discount__container container grid">
+                <div class="discount__data">
+                    <h2 class="discount__title section__title">
+                        Up To 50% Discount
+                    </h2>
+
+                    <p class="discount__desription">
+                        Take advantage of the discount days we
+                        have for you , buy product form your favorite
+                        product, the more you buy, the more discounts
+                        we have for you.
+                    </p>
+                    <a href="#" class="button"> shop now</a>
+                </div>
+                <div class="discount__images">
+                    <img src="image/1737-1024x794.png" alt="image" class="discount__img-1">
+                    <img src="image/Door-Levers-300x138.png" alt="image" class="discount__img-2">
+                </div>
+            </div>
+        </section>
+
+        <section class=" new section" id="new">
+            <h2 class="section__title">
+                New Products
+            </h2>
+            <div class="new__container conatainer">
+                <div class="new__swiper swiper">
+                    <div class="swiper-wrapper">
+                        <a href="#" class="new__card swiper-slide">
+                            <img src="image/15343.png" alt="image" class="new__img">
+                            <div>
+                                <h2 class="new__title">New Product</h2>
+                                <span class="new__discount">1999</span>
+                                <span class="new__price">1499</span>
+                                <div class="new__stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#" class="new__card swiper-slide">
+                            <img src="image/1539 (1).png" alt="image" class="new__img">
+                            <div>
+                                <h2 class="new__title">New Product</h2>
+                                <span class="new__discount">1499</span>
+                                <span class="new__price">2499</span>
+
+                                <div class="new__stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#" class="new__card swiper-slide">
+                            <img src="image/Door-Knobs-108x300.png" alt="image" class="new__img">
+                            <div>
+                                <h2 class="new__title">New Product</h2>
+                                <span class="new__discount">1999</span>
+                                <span class="new__price">2999</span>
+
+                                <div class="new__stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="new__container conatainer">
+                <div class="new__swiper swiper">
+                    <div class="swiper-wrapper">
+                        <a href="#" class="new__card swiper-slide">
+                            <img src="image/15343.png" alt="image" class="new__img">
+                            <div>
+                                <h2 class="new__title">New Product</h2>
+                                <span class="new__discount">1999</span>
+                                <span class="new__price">1499</span>
+                                <div class="new__stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#" class="new__card swiper-slide">
+                            <img src="image/1539 (1).png" alt="image" class="new__img">
+                            <div>
+                                <h2 class="new__title">New Product</h2>
+                                <span class="new__discount">1499</span>
+                                <span class="new__price">2499</span>
+
+                                <div class="new__stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#" class="new__card swiper-slide">
+                            <img src="image/Door-Knobs-108x300.png" alt="image" class="new__img">
+                            <div>
+                                <h2 class="new__title">New Product</h2>
+                                <span class="new__discount">1999</span>
+                                <span class="new__price">2999</span>
+
+                                <div class="new__stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="join section">
+            <div class="join__container">
+                <img src="image/ss.jpg" alt="image" class="join__bg">
+                
+                <div class="join__data container grid">
+                    <h2 class="join__title section__title">
+                        Subscribe To Receive <br>
+                        The Latest Update
+                    </h2>
+                    <form action="#" class="join__form">
+                        <input type="email" name="email" id="email" placeholder="Enter Email" class="join__input">
+                        <button class="button">Subscribe</button>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer__container container grid">
+                <div>
+                    <a href="#" class="footer__logo">
+                        M/S Ritika Industries
+                    </a>
+                    <p class="footer__description">
+                        Find and explore the best <br>
+                        product from all <br>
+                        favorite product
+                    </p>
+                </div>
+                
+                <div class="footer__data grid">
+                    <div>
+                        <h3 class="footer__title">About</h3>
+
+                        <ul class="footer__links">
+                            <li><a href="#" class="footer__link">Awards</a></li>
+                            <li><a href="#" class="footer__link">FAQs</a></li>
+                            <li><a href="#" class="footer__link">Privacy policy</a></li>
+                            <li><a href="#" class="footer__link">Terms of Condition</a></li>
+                        </ul>
+                    </div>
+                   
+                    <div>
+                        <h3 class="footer__title">Campany</h3>
+
+                        <ul class="footer__links">
+                            <li><a href="#" class="footer__link">Product</a></li>
+                            <li><a href="#" class="footer__link">Community</a></li>
+                            <li><a href="#" class="footer__link">Our team</a></li>
+                            <li><a href="#" class="footer__link">Help center</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h3 class="footer__title">Contact</h3>
+
+                        <ul class="footer__links">
+                            <li><a href="#" class="footer__link"><i class="ri-phone-fill"></i> 9837137744</a></li>
+                            <li><a href="#" class="footer__link"><i class="ri-whatsapp-fill"></i> 7906769428</a></li>
+                            <li><a href="#" class="footer__link"><i class="ri-mail-fill"></i> updhyayyash347@gmail.com</a></li>
+                        </ul>
+                    </div>
+                   
+                    <div>
+                        <h3 class="footer__title">Social</h3>
+
+                        <ul class="footer__social">
+                            <li><a href="#" class="footer__link"><i class="ri-facebook-fill"></i></a></li>
+                            <li><a href="#" class="footer__link"><i class="ri-linkedin-fill"></i></a></li>
+                            <li><a href="#" class="footer__link"><i class="ri-twitter-x-fill"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+                <span class="footer__copy">
+                    &#169; All Right Reserved By Shanitayash IT Solutions 
+                </span>
+        </footer>
+            <a href="#" class="scrollup" id="scroll-up">
+                <i class="ri-arrow-up-fill scrollup__icon"></i>
+            </a>
+    </main>
+
+    <script src="javascript/main.js"></script>
+
+</body>
+
+</html>
